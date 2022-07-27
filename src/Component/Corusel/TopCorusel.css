@@ -1,0 +1,227 @@
+.carousel__item {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.carousel__item .slick-next {
+  /* background-color: red; */
+  width: 70px;
+  height: 70px;
+  background-image: url(../Image/lineRight.svg);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+
+  border-radius: 50%;
+
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+.carousel__item .slick-next::before {
+  content: ' ';
+  transform: scale(0);
+}
+
+.carousel__item .slick-prev {
+  transform: scale(0);
+}
+
+.carousel__item .slick-slide {
+  margin: 0 9.5px !important;
+  width: 340px !important;
+  /* height: 479px; */
+  background-color: white;
+}
+
+.carousel__item .slick-slide:nth-child(1) {
+  /* margin-left: -90px !important; */
+  margin-left: 14px !important;
+}
+
+/* .carousel__item .slick-arrow {
+  top: 25%;
+} */
+.corusel_container {
+  width: 200px;
+}
+.corusel_container > img {
+  width: 100%;
+  height: 235px;
+}
+.corusel_container {
+  position: relative;
+}
+.corusel_container > .view {
+  position: absolute;
+  width: 43px;
+  text-align: center;
+  top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  left: 18px;
+}
+.slick-dots {
+  display: none !important;
+}
+.corusel_container > .view > .ostroe > p {
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #1b1b1b;
+}
+.corusel_container > .view > .ostroe > img {
+  width: 32px;
+  height: 29px;
+  margin-left: 8px;
+}
+.corusel_container > .view > .hot > img {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+.corusel_container > .view > .hot > p {
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #1b1b1b;
+}
+.corusel_container > .top {
+  position: absolute;
+  top: 15px;
+  right: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: #a1dcdc;
+  color: white;
+  border-radius: 50%;
+}
+.corusel_container > .corusel_body {
+  padding: 18px;
+}
+.corusel_body > .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.corusel_body > .flex > p {
+  font-weight: 400;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #b7b7b7;
+}
+.centimeters_box > span,
+.corusel_body > .flex > p > span {
+  width: 4px;
+  margin: 0 6px;
+  height: 4px;
+  border-radius: 50%;
+  background: #e07153;
+}
+.centimeters {
+  position: relative;
+}
+.centimeters_box {
+  display: flex;
+  right: 0;
+  top: -12px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.centimeters_right,
+.centimeters_left {
+  background: #e07153;
+  padding: 4px 8px;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+
+  border-radius: 2px;
+  color: #ffffff;
+}
+.centimeters_right {
+  background: #f5f5f5;
+  color: #b7b7b7;
+}
+.centimeters_box > .money {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #b7b7b7;
+}
+.corusel_body > .title {
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 6px;
+
+  color: #1b1b1b;
+}
+.line__box {
+  height: 51px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 4px;
+
+  color: #1b1b1b;
+}
+.underline {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  text-decoration-line: underline;
+  height: 51px;
+
+  color: #1b1b1b;
+}
+.corusel_body > .order_box_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+}
+.corusel_body > .order_box_item > .summa_items {
+  font-weight: 700;
+  font-size: 32px;
+
+  color: #1b1b1b;
+}
+.order_box_item > button {
+  outline: none;
+  padding: 12px 50px;
+  background-image: url(../Image/bg.png);
+  cursor: pointer;
+  background-color: #e07153;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+
+  color: #ffffff;
+}
+.order_box_item > .order__absolute {
+  position: absolute;
+  top: -5px;
+  font-weight: 400;
+  font-size: 14px;
+
+  text-decoration-line: line-through;
+
+  color: #b7b7b7;
+}
+.order_box_item > button:hover {
+  color: rgba(255, 255, 255, 0.705);
+  background-color: #e07253b9;
+}

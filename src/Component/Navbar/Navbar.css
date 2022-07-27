@@ -5,7 +5,9 @@
   position: relative;
   display: flex;
   align-items: center;
-  height: 89px;
+  justify-content: space-between;
+  height: 70px;
+  background: white;
   padding-left: 140px;
   padding-right: 140px;
 }
@@ -18,8 +20,8 @@
   height: 136px;
 }
 .navbar > nav > ul {
-  width: 450px;
-  margin-left: 120px;
+  width: 50%;
+  padding-left: 160px;
   display: flex;
 
   justify-content: space-between;
@@ -29,7 +31,7 @@
   display: block;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-
+  white-space: nowrap;
   font-weight: 400;
   font-size: 14px;
 
@@ -135,13 +137,12 @@
 .product_image {
   display: flex;
   justify-content: space-between;
-  /* width: 100%; */
+
   padding-left: 299px;
   padding-right: 140px;
   height: 83px;
   background: #f5f5f5;
   align-items: center;
-  display: flex;
 }
 
 .product_item {

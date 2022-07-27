@@ -6,6 +6,7 @@ import Dastabka from './Component/dastabka/Dastabka'
 import Kantact from './Component/Kantact/Kantact'
 import Bonus from './Component/bonus/Bonus'
 import Vakansia from './Component/vakancia/Vakansia'
+import './App.css'
 
 const App = () => {
   return (

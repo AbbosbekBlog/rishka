@@ -1,33 +1,11 @@
 import React from 'react'
 import logo from '../Image/logo.svg'
 import '../Navbar/Navbar.css'
+import { foot } from '../data/data'
 import { NavLink } from 'react-router-dom'
-import {
-  Pizza,
-  Sushi,
-  Polli,
-  Ceti,
-  Wok,
-  Soup,
-  Calat,
-  Detsert,
-  Tea,
-  Gif,
-} from '../SvgImage/svg'
+
 import { BsFillTelephoneFill, BsBagFill, BsPersonFill } from 'react-icons/bs'
 
-const foot = [
-  { id: 1, img: <Pizza className="product_item_image" />, text: 'Пицца' },
-  { id: 2, img: <Sushi className="product_item_image" />, text: 'Суши' },
-  { id: 3, img: <Polli className="product_item_image" />, text: 'Роллы' },
-  { id: 4, img: <Ceti className="product_item_image" />, text: 'Сеты' },
-  { id: 5, img: <Wok className="product_item_image" />, text: 'Wok' },
-  { id: 6, img: <Soup className="product_item_image" />, text: 'Супы' },
-  { id: 7, img: <Calat className="product_item_image" />, text: 'Салаты' },
-  { id: 8, img: <Detsert className="product_item_image" />, text: 'Десерты' },
-  { id: 9, img: <Tea className="product_item_image" />, text: 'Напитки' },
-  { id: 10, img: <Gif className="product_item_image" />, text: 'Акции' },
-]
 function Navbar() {
   return (
     <div className="navbar">

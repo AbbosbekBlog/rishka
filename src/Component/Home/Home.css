@@ -1,0 +1,69 @@
+.service-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 117px;
+  width: 100%;
+  margin-top: 50px;
+}
+.service {
+  /* border: 1px solid red; */
+  display: flex;
+  /* width: 1px; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.service > .cracle {
+  position: relative;
+  width: 72px;
+  margin-top: -17px;
+  height: 72px;
+  background: #e07153;
+  border-radius: 50%;
+}
+.service > .cracle > div {
+  position: absolute;
+  left: 40px;
+}
+.service > .service_summa {
+  white-space: nowrap;
+
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 2px;
+}
+.service > p {
+  padding-top: 12px;
+  color: #1b1b1b;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+.corusel_title1 {
+  display: flex;
+  position: relative;
+
+  margin-top: 140px;
+}
+.svgTitle {
+  position: absolute;
+  top: -40px;
+  left: -65px;
+}
+.corusel_title1 > h2 {
+  font-weight: 600;
+  font-size: 48px;
+
+  color: #1b1b1b;
+}
+.corusel_title1 > h2:nth-child(3) {
+  color: #b7b7b7;
+  padding-left: 32px;
+}
+.combo__menu {
+  width: 100%;
+  padding: 70px 0 100px 0px;
+  background: #f5f9fa;
+}
