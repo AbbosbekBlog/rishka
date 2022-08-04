@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
 import './TopCorusel.css'
+import { Link } from 'react-router-dom'
 
 function TopCorusel({ slayder1 }) {
   const settings = {
@@ -16,7 +17,9 @@ function TopCorusel({ slayder1 }) {
         {slayder1?.map((slayderItem) => {
           return (
             <div className="corusel_container" key={slayderItem.id}>
-              <img src={slayderItem.img} alt={slayderItem.title} />
+              <Link to={'/category'}>
+                <img src={slayderItem.img} alt={slayderItem.title} />
+              </Link>
               <div className="view">
                 <div className="ostroe">
                   {slayderItem.imageText && (
@@ -35,6 +38,9 @@ function TopCorusel({ slayder1 }) {
                 </div>
               </div>
               {slayderItem.top && <div className="top">{slayderItem.top}</div>}
+              {slayderItem.new && (
+                <div className="top new__lightblue">{slayderItem.new}</div>
+              )}
               <div className="corusel_body">
                 <div className="flex">
                   <p className="gramm">

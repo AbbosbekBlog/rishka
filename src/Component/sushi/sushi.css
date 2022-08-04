@@ -1,0 +1,155 @@
+.sushi_praduct {
+  width: 100%;
+  background: #f5f9fa80;
+}
+.delivery_row {
+  padding-top: 115px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 80px;
+}
+.delivery_left {
+  padding-top: 20px;
+}
+.delivery_left > h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #1b1b1b;
+}
+.delivery_left > p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+
+  color: #1b1b1b;
+}
+.delivery_left > p:nth-last-child(3) {
+  padding-top: 20px;
+}
+.delivery_right {
+  display: flex;
+  position: relative;
+  left: 50px;
+  justify-content: end;
+}
+.delivery_right > img:nth-child(1) {
+  width: 347px;
+  height: 432px;
+  z-index: 555;
+}
+.delivery_right > img:nth-child(2) {
+  width: 240px;
+  height: 300px;
+  position: relative;
+  top: 70px;
+  right: 50px;
+}
+.sushi_link {
+  padding-top: 48px;
+  display: flex;
+}
+.sushi_link > a {
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #1b1b1b;
+  text-decoration: none;
+}
+.sushi_link > p {
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #1b1b1b;
+  padding: 0px 8px;
+}
+.sushi_title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  padding-top: 25px;
+  color: #1b1b1b;
+}
+.cushi_menyu {
+  padding-top: 21px;
+  display: flex;
+  gap: 10px;
+}
+.cushi_menyu_box {
+  display: flex;
+
+  padding: 15px 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  align-items: center;
+  gap: 10px;
+}
+.cushi_menyu_box2 > p,
+.cushi_menyu_box > p {
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  color: #1b1b1b;
+}
+.cushi_menyu_box > img {
+  width: 30px;
+  height: 30px;
+}
+.cushi_menyu_active {
+  border: 1px solid #e07153;
+}
+.cushi___menyu__row {
+  padding-top: 10px;
+  display: flex;
+  /* gap: 11px; */
+  justify-content: space-between;
+  align-items: center;
+}
+.cushi___menyu {
+  padding-top: 10px;
+  display: flex;
+  gap: 11px;
+}
+.cushi_menyu_box2 {
+  display: flex;
+
+  padding: 15px 30px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  align-items: center;
+  gap: 12px;
+}
+.cushi_menyu_box2 > img {
+  width: 32px !important;
+  height: 32px !important;
+}
+.sushi_dropdown {
+  justify-content: end;
+}
+.sushi_dropdown > p {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  top: -10px;
+
+  color: #b7b7b7;
+}
+.sushi_dropdown > select {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 15px 160px 15px 20px;
+  color: #1b1b1b;
+  border: 1px solid #e2e1e1;
+  border-radius: 8px;
+  outline: none;
+  appearance: none;
+  background-image: url(../Image/botton.svg);
+  background-position: 262px;
+  background-repeat: no-repeat;
+}
+.sushi_dropdown > select[option] {
+  width: 50px;
+  border: 1px solid red;
+}

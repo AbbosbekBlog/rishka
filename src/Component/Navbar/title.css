@@ -1,0 +1,14 @@
+.title__box_item {
+  display: flex;
+}
+.title__box_item > h2 {
+  font-weight: 600;
+  font-size: 48px;
+
+  color: #1b1b1b;
+}
+.title__box_item > img {
+  width: 60px;
+  height: 60px;
+  margin-left: 16px;
+}

@@ -1,0 +1,26 @@
+.category {
+  width: 100%;
+  background: #f5f9fa80;
+}
+.link_category {
+  padding-top: 48px;
+  display: flex;
+  align-items: center;
+}
+.link_category > img {
+  transform: rotate(180deg);
+}
+.link_category > p {
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 18px;
+  color: #1b1b1b;
+}
+.category_cards {
+  padding-top: 100px;
+}
+.category_title_items {
+  font-weight: 600;
+  font-size: 40px;
+  color: #1b1b1b;
+}

@@ -55,8 +55,12 @@ function Navbar() {
         {foot?.map((footItem) => {
           return (
             <div className="praduct_item" key={footItem.id}>
-              <div className="image_box">{footItem.img}</div>
-              <div className="image_name">{footItem.text}</div>
+              {footItem.to && (
+                <NavLink to={footItem.to} className="link">
+                  <div className="image_box">{footItem.img}</div>
+                  <div className="image_name">{footItem.text}</div>
+                </NavLink>
+              )}
             </div>
           )
         })}

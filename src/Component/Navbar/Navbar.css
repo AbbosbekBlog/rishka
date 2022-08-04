@@ -1,5 +1,6 @@
 .navbar {
   width: 100%;
+  background: #f5f9fa;
 }
 .navbar > nav {
   position: relative;
@@ -20,7 +21,7 @@
   height: 136px;
 }
 .navbar > nav > ul {
-  width: 50%;
+  width: 55%;
   padding-left: 160px;
   display: flex;
 
@@ -164,4 +165,7 @@
 .product_item_image {
   width: 32px;
   height: 32px;
+}
+.link {
+  text-decoration: none;
 }
